@@ -29,3 +29,22 @@ Da der blanke ESP 12F verbaut ist kann nicht über die USB Schnittstelle geflash
 
 ### Bootmodus Aktivieren
 Flash und Reset gleichzeitig drücken und Flash vor Reset wieder loslassen. Danach ist der Chip bespielbar. Wenn der Chip beschrieben wurde einfach erneut Reset Drücken um den Boot Modus zu verlassen.
+
+## Teile
+- 1x ESP 12F
+- 1x TP 4056
+- 1x Micro USB Buchse
+- 1x AMS 1117 -3.3V
+- 1x Button 12x12
+- 2x Button 6x6
+- 4x Widerstand 1k
+- 1x Widerstand 1,33k
+- 5x Widerstand 10k
+- 1x Widerstand 18k
+- 1x Widerstand 5,6k 
+- 2x LED Rot
+- 2x LED Grün
+
+<p align="center">
+<img src="pcbAssembl.jpeg" width="400">
+</p>
