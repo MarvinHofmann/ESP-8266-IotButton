@@ -46,5 +46,5 @@ Flash und Reset gleichzeitig drücken und Flash vor Reset wieder loslassen. Dana
 - 2x LED Grün
 
 <p align="center">
-<img src="pcbAssembl.png" width="400">
+<img src="pcbAssembl.jpeg" width="400">
 </p>
