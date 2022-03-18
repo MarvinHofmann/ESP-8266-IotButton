@@ -1,5 +1,4 @@
 # ESP 8266 12F IoT Button custom PCB
-![[pcbDesing.png |400]]
 
 Dieses Projekt enthält:
 - Schaltplan
@@ -11,6 +10,11 @@ Dieses Projekt enthält:
 Der ESP wird durch den großen Reset Knopf aus dem Deep Sleep aufgeweckt und sendet Seine Request an einen Webserver, danach geht er wieder in den Deep Sleep (Stromverbrauch ±0,0258mA). Über RTC Memory kann man sich "Flags" trotz Deep Sleep speichern so kann der Controller z.B auch wissen, das wievielte mal er aufgeweckt wurde und dementsprechend anders handeln.
 
 ## PCB
+
+<p align="center">
+<img src="pcbDesing.png" width="400">
+</p>
+
 Das PCB läuft auf Akku Betrieb. Dieser kann durch anstecken eines Micro USB Kabels geladen werden. Die Bauteilgröße der SMD Teile ist 0805. 
 	Die Abmase sind 52,7mm x 35,5mm
 
