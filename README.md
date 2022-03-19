@@ -8,7 +8,7 @@
 	- [Teile](#teile)
 
 ## Funktion
-Der ESP wird durch den großen Reset Knopf aus dem Deep Sleep aufgeweckt und sendet seine Request an einen Webserver, danach geht er wieder in den Deep Sleep (Stromverbrauch ±0,0258mA). Über RTC Memory kann man sich "Flags" trotz Deep Sleep speichern, so kann der Controller z.B. auch wissen, das wievielte mal er aufgeweckt wurde und dementsprechend anders handeln. Ein entsprechendes Beispiel ist unter <a src="Code/IoTButton_Code_RTCMemory.ino">`Code/IoTButton_Code_RTCMemory.ino`</a> zu finden.
+Der ESP wird durch den großen Reset Knopf aus dem Deep Sleep aufgeweckt und sendet seine Request an einen Webserver, danach geht er wieder in den Deep Sleep (Stromverbrauch ±0,0258mA). Über RTC Memory kann man sich "Flags" trotz Deep Sleep speichern, so kann der Controller z.B. auch wissen, das wievielte mal er aufgeweckt wurde und dementsprechend anders handeln. Ein entsprechendes Beispiel ist unter [Code/IoTButton_Code_RTCMemory.ino](https://github.com/MarvinHofmann/ESP-8266-IotButton/blob/main/Code/IoTButton_Code_RTCMemory.ino)zu finden.
 
 ## PCB
 
